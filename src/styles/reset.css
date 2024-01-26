@@ -1,0 +1,41 @@
+/* Reset CSS para Opera GX */
+
+/* Box sizing border-box por padrão */
+html {
+    box-sizing: border-box;
+  }
+  
+  *, *::before, *::after {
+    box-sizing: inherit;
+  }
+  
+  /* Remover margens e preenchimentos padrão */
+  body, h1, h2, h3, h4, h5, h6, p, ul, ol, dl, figure, hr {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Remover estilos padrão de lista */
+  ul, ol {
+    list-style: none;
+  }
+  
+  /* Remover decoração de texto padrão */
+  a {
+    text-decoration: none;
+  }
+  
+  /* Definir fonte de texto padrão e tamanho para evitar variações entre navegadores */
+  body {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+  }
+  
+  /* Adicionar estilos mínimos para elementos HTML comuns */
+  body {
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  /* Adicione mais redefinições conforme necessário para atender às necessidades do seu projeto */
+  
